@@ -3,13 +3,11 @@
 
 version: 2
 updates:
-  - package-ecosystem: npm
     directory: /
     schedule:
       interval: daily
     open-pull-requests-limit: 4
     reviewers:
-      - lensapp/lens-ide
     labels:
       - dependencies
     versioning-strategy: increase
